@@ -11,7 +11,7 @@ export default {
   },
   font: {
     family:
-      "Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+      "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     light: 300,
     normal: 400,
     bold: 600,
@@ -30,14 +30,17 @@ export default {
     }
   },
   colors: {
+    primary: '#5c63ef',
+    secundary: '#d8d8e5',
     white: '#fff',
-    gray_50: '#f0efeb',
-    gray_300: '#343a40',
-    yellow_300: '#F1C40F',
-    purple_100: '#7F57DF',
-    purple_300: '#5855E9',
-    red_300: '#FF6666',
-    black: '#0D0D0D'
+    gray_100: '#e6e6eb',
+    gray_200: '#d8d8e5',
+    blue_100: '#5c63ef',
+    blue_200: '#5d5e7a',
+    blue_300: '#292b52',
+    red: '#e03f3f',
+    green: '#2ea340',
+    orange: '#ff8933'
   },
   spacings: {
     xxxsmall: '0.8rem',
