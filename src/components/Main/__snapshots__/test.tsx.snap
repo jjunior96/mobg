@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render the component 1`] = `
+<div>
+  <div
+    class="styles__Container-sc-jmgvkg-0 iaVvLg"
+  >
+    <div
+      class="styles__Content-sc-jmgvkg-1 jEYfGg"
+    >
+      <h1>
+        Next Example
+      </h1>
+    </div>
+  </div>
+</div>
+`;
