@@ -15,7 +15,7 @@ export const LinkActived = styled.a<LinkActivedProps>`
 
     width: 100%;
 
-    color: ${theme.colors.white};
+    color: ${theme.colors.primary};
 
     padding: ${theme.spacings.xxxsmall} ${theme.spacings.xsmall};
 
@@ -32,11 +32,15 @@ export const LinkActived = styled.a<LinkActivedProps>`
 
     ${isActive &&
     css`
-      background-color: ${shade(0.2, theme.colors.purple_300)};
+      background-color: ${shade(0.2, theme.colors.primary)};
+
+      color: ${theme.colors.white};
     `}
 
     &:hover {
-      background-color: ${shade(0.2, theme.colors.purple_300)};
+      background-color: ${shade(0.2, theme.colors.primary)};
+
+      color: ${theme.colors.white};
     }
   `}
 `;

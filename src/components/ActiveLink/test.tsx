@@ -39,7 +39,7 @@ describe('<ActiveLink />', () => {
     const ActiveLinkElement = screen.getByText(/login/i);
 
     expect(ActiveLinkElement).toHaveStyle({
-      'background-color': '#1c8455'
+      'background-color': '#494fbf'
     });
   });
 
@@ -61,7 +61,7 @@ describe('<ActiveLink />', () => {
     await waitFor(() => ActiveLinkElement);
 
     expect(screen.getByText(/login/i)).toHaveStyle({
-      'background-color': '#1c8455'
+      'background-color': '#494fbf'
     });
   });
 });
