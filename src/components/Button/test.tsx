@@ -55,7 +55,7 @@ describe('<Button />', () => {
     renderWithTheme(<Button minimal>Enter</Button>);
 
     expect(screen.getByRole('button', { name: /Enter/i })).toHaveStyle({
-      background: 'none',
+      background: 'transparent',
       color: theme.colors.blue_200
     });
   });
