@@ -16,10 +16,10 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="manifest" href="/manifest.json" />
         <meta name="description" content="Mobg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Work+Sans:wght@300;400;600&display=swap"
-          rel="stylesheet"
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="crossOrigin"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@600&family=Work+Sans:wght@300;400;600&display=swap"

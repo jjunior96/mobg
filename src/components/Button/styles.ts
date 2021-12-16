@@ -23,7 +23,7 @@ const containerModifiers = {
   `,
 
   minimal: (theme: DefaultTheme) => css`
-    background: none;
+    background: transparent;
 
     color: ${theme.colors.blue_200};
 
@@ -31,11 +31,11 @@ const containerModifiers = {
 
     border: 2px solid ${theme.colors.secundary};
 
-    transition: color ${theme.transition.default},
-      border ${theme.transition.default};
+    transition: color ${theme.transition.fast}, border ${theme.transition.fast};
 
     &:hover {
       color: ${darken(0.1, theme.colors.primary)};
+      background-color: transparent;
 
       border-color: ${theme.colors.primary};
     }
