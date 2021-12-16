@@ -10,8 +10,13 @@ export default {
     shadow: '0 8px 8px rgba(0, 0, 0, 0.08)'
   },
   font: {
-    family:
-      "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    family: {
+      primary:
+        "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+      secundary:
+        "'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
+    },
+
     light: 300,
     normal: 400,
     bold: 600,
@@ -40,7 +45,8 @@ export default {
     blue_300: '#292b52',
     red: '#e03f3f',
     green: '#2ea340',
-    orange: '#ff8933'
+    orange: '#ff8933',
+    black: '#292b52'
   },
   spacings: {
     xxxsmall: '0.8rem',

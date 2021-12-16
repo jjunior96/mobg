@@ -24,7 +24,7 @@ const GlobalStyles = createGlobalStyle`
     input,
     textarea,
     button {
-      font-family: ${theme.font.family};
+      font-family: ${theme.font.family.primary};
     }
   `}
 
