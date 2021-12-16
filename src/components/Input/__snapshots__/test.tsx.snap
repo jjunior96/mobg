@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render the Input component 1`] = `
+.c0 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #292b52;
+}
+
+.c0 span {
+  display: none;
+}
+
+.c1 {
+  background: #fff;
+  color: #d8d8e5;
+  border-radius: 0.4rem;
+  padding: 1.6rem 2rem;
+  width: 100%;
+  height: 56px;
+  font-size: 2.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 2px solid #d8d8e5;
+  cursor: default;
+}
+
+.c1:focus-within {
+  outline: 3px solid #fff;
+}
+
+.c1 input {
+  color: #292b52;
+  background: transparent;
+  outline: none;
+  border: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 input::-webkit-outer-spin-button,
+.c1 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c1 input:-webkit-autofill,
+.c1 input:-webkit-autofill:hover,
+.c1 input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #d8d8e5;
+  -webkit-box-shadow: #282f3a26 inset;
+  box-shadow: #282f3a26;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.c1 input::-webkit-input-placeholder {
+  color: #d8d8e5;
+}
+
+.c1 input::-moz-placeholder {
+  color: #d8d8e5;
+}
+
+.c1 input:-ms-input-placeholder {
+  color: #d8d8e5;
+}
+
+.c1 input::placeholder {
+  color: #d8d8e5;
+}
+
+.c1 svg {
+  margin-right: 1.6rem;
+  color: #d8d8e5;
+}
+
+<div
+  class=""
+>
+  <label
+    class="c0"
+  >
+     
+    <span>
+      *
+    </span>
+  </label>
+  <div
+    class="c1"
+  >
+    <input
+      aria-label="name-input"
+      name="Name"
+      type="text"
+    />
+  </div>
+</div>
+`;
