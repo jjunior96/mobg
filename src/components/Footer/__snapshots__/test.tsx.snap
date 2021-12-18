@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render the heading 1`] = `
+.c5 {
+  color: #292b52;
+  font-size: 1.6rem;
+}
+
+.c1 {
+  font-family: 'Lexend',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-weight: 600;
+  font-size: 3.2rem;
+  color: #5c63ef;
+}
+
+.c0 .c4 {
+  text-transform: uppercase;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: minmax(auto,50%) 1fr;
+  gap: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+.c3 a,
+.c3 span {
+  display: block;
+  color: #9b9bbc;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.c3 a {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.c3 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c6 {
+  color: #d8d8e5;
+  font-size: 1.4rem;
+  margin-top: 4.0rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .c2 {
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+
+<footer
+  class="c0"
+>
+  <div
+    class=""
+  >
+    <h2
+      class="c1"
+      color="primary"
+    >
+      mobg
+    </h2>
+  </div>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      <h2
+        class="c4 c5"
+        color="black"
+      >
+        Contact Us
+      </h2>
+      <a
+        href="mailto:sac@wongames.com"
+      >
+        sac@wongames.com
+      </a>
+    </div>
+    <div
+      aria-labelledby="social-media"
+      class="c3"
+    >
+      <h2
+        class="c4 c5"
+        color="black"
+      >
+        Follow us
+      </h2>
+      <nav
+        id="social-media"
+      >
+        <a
+          href="https://www.instagram.com/won-games"
+          rel="noopenner, noreferrer"
+          target="_blank"
+        >
+          Instagram
+        </a>
+        <a
+          href="https://www.twitter.com/won-games"
+          rel="noopenner, noreferrer"
+          target="_blank"
+        >
+          Twitter
+        </a>
+        <a
+          href="https://www.youtube.com/won-games"
+          rel="noopenner, noreferrer"
+          target="_blank"
+        >
+          Youtube
+        </a>
+        <a
+          href="https://www.facebook.com/won-games"
+          rel="noopenner, noreferrer"
+          target="_blank"
+        >
+          Facebook
+        </a>
+      </nav>
+    </div>
+    <div
+      aria-labelledby="resources"
+      class="c3"
+    >
+      <h2
+        class="c4 c5"
+        color="black"
+      >
+        Links
+      </h2>
+      <nav
+        id="resources"
+      >
+        <a
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          href="/games"
+        >
+          Store
+        </a>
+        <a
+          href="/search"
+        >
+          Buscar
+        </a>
+      </nav>
+    </div>
+    <div
+      aria-label="contact"
+      class="c3"
+    >
+      <h2
+        class="c4 c5"
+        color="black"
+      >
+        Location
+      </h2>
+      <span>
+        Lorem ipsum dolor sit.
+      </span>
+      <span>
+        Lorem Ipsum
+      </span>
+      <span>
+        Lorem, ipsum dolor.
+      </span>
+    </div>
+  </div>
+  <div
+    class="c6"
+  >
+    Won Games 
+    2021
+     © All rights reserved.
+  </div>
+</footer>
+`;
