@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => css`
-    border: 1px solid ${theme.colors.gray_100};
+    border: 0.2rem solid ${theme.colors.gray_100};
 
     border-radius: ${theme.border.radius};
 
