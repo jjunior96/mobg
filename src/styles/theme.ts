@@ -4,7 +4,7 @@ export default {
     gutter: '3.2rem'
   },
   border: {
-    radius: '0.4rem'
+    radius: '0.8rem'
   },
   box: {
     shadow: '0 8px 8px rgba(0, 0, 0, 0.08)'
