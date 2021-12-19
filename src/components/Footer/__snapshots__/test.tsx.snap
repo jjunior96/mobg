@@ -1,31 +1,135 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Footer /> should render the heading 1`] = `
-.c5 {
-  color: #292b52;
-  font-size: 1.6rem;
-}
-
 .c1 {
-  font-family: 'Lexend',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
-  font-weight: 600;
-  font-size: 3.2rem;
-  color: #5c63ef;
-}
-
-.c0 .c4 {
-  text-transform: uppercase;
+  width: 100%;
 }
 
 .c2 {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 130rem;
+}
+
+.c7 {
+  font-size: 3.2rem;
+}
+
+.c8 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #292b52;
+}
+
+.c8 span {
+  display: none;
+}
+
+.c9 {
+  background: #fff;
+  color: #d8d8e5;
+  border-radius: 0.8rem;
+  padding: 1.6rem 2rem;
+  width: 100%;
+  height: 56px;
+  font-size: 2.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 2px solid #d8d8e5;
+  cursor: default;
+}
+
+.c9:focus-within {
+  outline: 3px solid #fff;
+}
+
+.c9 input {
+  color: #292b52;
+  background: transparent;
+  outline: none;
+  border: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c9 input::-webkit-outer-spin-button,
+.c9 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c9 input:-webkit-autofill,
+.c9 input:-webkit-autofill:hover,
+.c9 input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #d8d8e5;
+  -webkit-box-shadow: #282f3a26 inset;
+  box-shadow: #282f3a26;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.c9 input::-webkit-input-placeholder {
+  color: #d8d8e5;
+}
+
+.c9 input::-moz-placeholder {
+  color: #d8d8e5;
+}
+
+.c9 input:-ms-input-placeholder {
+  color: #d8d8e5;
+}
+
+.c9 input::placeholder {
+  color: #d8d8e5;
+}
+
+.c9 svg {
+  margin-right: 1.6rem;
+  color: #d8d8e5;
+}
+
+.c5 {
+  font-family: 'Lexend',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: #5c63ef;
+}
+
+.c0 {
+  width: 100%;
+  border-top: 1px solid #d8d8e5;
+  padding: 2.4rem 0;
+}
+
+.c0 .c6 {
+  text-transform: uppercase;
+}
+
+.c3 {
   display: grid;
   grid-template-columns: minmax(auto,50%) 1fr;
   gap: 3.2rem;
+  width: 100%;
+  max-width: 130rem;
   margin-top: 3.2rem;
 }
 
-.c3 a,
-.c3 span {
+.c4 a,
+.c4 span {
   display: block;
   color: #9b9bbc;
   -webkit-text-decoration: none;
@@ -34,26 +138,36 @@ exports[`<Footer /> should render the heading 1`] = `
   font-size: 2rem;
 }
 
-.c3 a {
+.c4 li {
+  list-style: none;
+  color: #5c63ef;
+}
+
+.c4 a {
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
-.c3 a:hover {
+.c4 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c6 {
-  color: #d8d8e5;
-  font-size: 1.4rem;
-  margin-top: 4.0rem;
-  margin-bottom: 3.2rem;
-  text-align: center;
+.c10 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-top: 1px solid #d8d8e5;
 }
 
 @media (min-width:768px) {
-  .c2 {
+  .c3 {
     grid-template-columns: repeat(4,1fr);
   }
 }
@@ -62,133 +176,180 @@ exports[`<Footer /> should render the heading 1`] = `
   class="c0"
 >
   <div
-    class=""
+    class="c1"
+    data-testid="container"
   >
-    <h2
-      class="c1"
-      color="primary"
+    <div
+      class="c2"
     >
-      mobg
-    </h2>
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <div
+            class=""
+          >
+            <h2
+              class="c5"
+              color="primary"
+            >
+              mobg
+            </h2>
+          </div>
+          <p>
+            Encontre o lugar perfeito para morar
+          </p>
+          <ul>
+            <li>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 496 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="c4"
+        >
+          <h3>
+            Navegação
+          </h3>
+          <ul>
+            <li>
+              Home
+            </li>
+            <li>
+              Quero alugar
+            </li>
+            <li>
+              Falar com um agente
+            </li>
+            <li>
+              Termos de uso
+            </li>
+            <li>
+              Política de privacidade
+            </li>
+          </ul>
+        </div>
+        <div
+          class="c4"
+        >
+          <button>
+            Newletter
+          </button>
+          <h2
+            class="c6 c7"
+          >
+            Receba novidades no seu e-mail
+          </h2>
+          <div
+            class=""
+          >
+            <label
+              class="c8"
+            >
+               
+              <span>
+                *
+              </span>
+            </label>
+            <div
+              class="c9"
+            >
+              <input
+                placeholder="Digite seu e-mail"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div
-    class="c2"
+    class="c1"
+    data-testid="container"
   >
     <div
-      class="c3"
+      class="c2"
     >
-      <h2
-        class="c4 c5"
-        color="black"
+      <div
+        class="c10"
       >
-        Contact Us
-      </h2>
-      <a
-        href="mailto:sac@wongames.com"
-      >
-        sac@wongames.com
-      </a>
+        <p>
+          mobg © Todos os direitos reservados
+        </p>
+        <div>
+          <a
+            href="#"
+          >
+            Anunciar imóvel
+          </a>
+          <a
+            href="#"
+          >
+            Queremos o seu feedback
+          </a>
+        </div>
+      </div>
     </div>
-    <div
-      aria-labelledby="social-media"
-      class="c3"
-    >
-      <h2
-        class="c4 c5"
-        color="black"
-      >
-        Follow us
-      </h2>
-      <nav
-        id="social-media"
-      >
-        <a
-          href="https://www.instagram.com/won-games"
-          rel="noopenner, noreferrer"
-          target="_blank"
-        >
-          Instagram
-        </a>
-        <a
-          href="https://www.twitter.com/won-games"
-          rel="noopenner, noreferrer"
-          target="_blank"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://www.youtube.com/won-games"
-          rel="noopenner, noreferrer"
-          target="_blank"
-        >
-          Youtube
-        </a>
-        <a
-          href="https://www.facebook.com/won-games"
-          rel="noopenner, noreferrer"
-          target="_blank"
-        >
-          Facebook
-        </a>
-      </nav>
-    </div>
-    <div
-      aria-labelledby="resources"
-      class="c3"
-    >
-      <h2
-        class="c4 c5"
-        color="black"
-      >
-        Links
-      </h2>
-      <nav
-        id="resources"
-      >
-        <a
-          href="/"
-        >
-          Home
-        </a>
-        <a
-          href="/games"
-        >
-          Store
-        </a>
-        <a
-          href="/search"
-        >
-          Buscar
-        </a>
-      </nav>
-    </div>
-    <div
-      aria-label="contact"
-      class="c3"
-    >
-      <h2
-        class="c4 c5"
-        color="black"
-      >
-        Location
-      </h2>
-      <span>
-        Lorem ipsum dolor sit.
-      </span>
-      <span>
-        Lorem Ipsum
-      </span>
-      <span>
-        Lorem, ipsum dolor.
-      </span>
-    </div>
-  </div>
-  <div
-    class="c6"
-  >
-    Won Games 
-    2021
-     © All rights reserved.
   </div>
 </footer>
 `;
