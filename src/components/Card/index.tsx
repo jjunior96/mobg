@@ -29,7 +29,7 @@ const Card = ({
   return (
     <S.Container>
       <S.Content>
-        <S.ImgContainer src={img} />
+        <S.ImgContainer src={img} alt={`Foto da ${location}`} />
 
         <S.InfoContainer>
           <S.Type>{type}</S.Type>
