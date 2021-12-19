@@ -4,24 +4,33 @@ import Heading from 'components/Heading';
 
 import * as S from './styles';
 
-const CardType = () => {
+export type CardTypeProps = {
+  id: string;
+  type: 'Apartamentos' | 'Casa';
+  description: string;
+  amount: number;
+  link: string;
+  img: string;
+};
+
+const CardType = ({ type, description, amount, link, img }: CardTypeProps) => {
   return (
     <S.Container>
       <S.Content>
         <S.InfoContainer>
           <S.InfoContent>
-            <Heading size="large">Apartamentos</Heading>
+            <Heading size="large">{type}</Heading>
 
-            <S.InfoDescription>Lofts, studios, kitnets...</S.InfoDescription>
-            <S.InfoAmount>126 unidades</S.InfoAmount>
+            <S.InfoDescription>{description}</S.InfoDescription>
+            <S.InfoAmount>{amount} unidades</S.InfoAmount>
           </S.InfoContent>
 
-          <S.SeeMoreLink href="#">
+          <S.SeeMoreLink href={link}>
             <p>Ver mais</p>
             <ArrowLeftIcon size="16" />
           </S.SeeMoreLink>
         </S.InfoContainer>
-        <S.ImgContainer src="/img/house-1.jpeg" />
+        <S.ImgContainer src={img} />
       </S.Content>
     </S.Container>
   );
