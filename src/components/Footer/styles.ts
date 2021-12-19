@@ -5,9 +5,17 @@ import media from 'styled-media-query';
 import * as HeadingStyles from 'components/Heading/styles';
 
 export const Container = styled.footer`
-  ${HeadingStyles.Container} {
-    text-transform: uppercase;
-  }
+  ${({ theme }) => css`
+    width: 100%;
+
+    border-top: 1px solid ${theme.colors.gray_200};
+
+    padding: ${theme.spacings.small} 0;
+
+    ${HeadingStyles.Container} {
+      text-transform: uppercase;
+    }
+  `}
 `;
 
 export const Content = styled.div`
@@ -15,6 +23,9 @@ export const Content = styled.div`
     display: grid;
     grid-template-columns: minmax(auto, 50%) 1fr;
     gap: ${theme.grid.gutter};
+
+    width: 100%;
+    max-width: ${theme.grid.container};
 
     margin-top: ${theme.spacings.medium};
 
@@ -39,6 +50,12 @@ export const Column = styled.div`
       font-size: ${theme.font.sizes.small};
     }
 
+    li {
+      list-style: none;
+
+      color: ${theme.colors.primary};
+    }
+
     a {
       word-wrap: break-word;
       overflow-wrap: break-word;
@@ -50,12 +67,12 @@ export const Column = styled.div`
   `}
 `;
 
-export const Copyright = styled.div`
+export const CopyrightContainer = styled.div`
   ${({ theme }) => css`
-    color: ${theme.colors.gray_200};
-    font-size: ${theme.font.sizes.xxsmall};
-    margin-top: ${theme.spacings.large};
-    margin-bottom: ${theme.spacings.medium};
-    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid ${theme.colors.gray_200};
   `}
 `;
