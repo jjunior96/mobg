@@ -17,7 +17,7 @@ exports[`<Button /> should render a button default 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
   border: 0;
   padding: 0 1.6rem;
   font-weight: 600;
