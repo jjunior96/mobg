@@ -8,7 +8,8 @@ describe('<Footer />', () => {
   it('should render the heading', () => {
     const { container } = renderWithTheme(<Footer />);
 
-    expect(screen.getByText(/contact/i)).toBeInTheDocument();
+    // Logo
+    expect(screen.getByRole('heading', { name: /mobg/i })).toBeInTheDocument();
 
     expect(container.firstChild).toMatchSnapshot();
   });
