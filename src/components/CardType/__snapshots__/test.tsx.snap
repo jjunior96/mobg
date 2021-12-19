@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardType /> should render the heading 1`] = `
+.c4 {
+  font-size: 3.2rem;
+}
+
+.c0 {
+  width: 100%;
+  max-width: 80rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 28rem;
+}
+
+.c2 {
+  width: 50%;
+  height: 100%;
+  padding: 2.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 0.2rem solid #e6e6eb;
+  border-right: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  margin-top: 2.4rem;
+  font-size: 1.6rem;
+  color: #5d5e7a;
+}
+
+.c6 {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: #5d5e7a;
+}
+
+.c8 {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c7 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 1.6rem;
+  color: #5d5e7a;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c7 svg {
+  margin-left: 1rem;
+  color: #5d5e7a;
+}
+
+.c7 svg:hover {
+  color: #5c63ef;
+}
+
+.c7:hover {
+  color: #5c63ef;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          Apartamentos
+        </h2>
+        <p
+          class="c5"
+        >
+          Lofts, studios, kitnets...
+        </p>
+        <p
+          class="c6"
+        >
+          126
+           unidades
+        </p>
+      </div>
+      <a
+        class="c7"
+        href="#"
+      >
+        <p>
+          Ver mais
+        </p>
+        <svg
+          fill="currentColor"
+          height="16"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"
+          />
+        </svg>
+      </a>
+    </div>
+    <img
+      class="c8"
+      src="/img/house-1.jpeg"
+    />
+  </div>
+</div>
+`;

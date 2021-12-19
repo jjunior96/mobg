@@ -11,7 +11,11 @@ describe('<Card />', () => {
   it('should render the heading', () => {
     const { container } = renderWithTheme(<Card {...props} />);
 
-    expect(screen.getByRole('heading', { name: /Card/i })).toBeInTheDocument();
+    // Imagem
+    expect(screen.getByRole('img', { name: /foto/i })).toHaveAttribute(
+      'alt',
+      `Foto da ${props.location}`
+    );
 
     expect(container.firstChild).toMatchSnapshot();
   });

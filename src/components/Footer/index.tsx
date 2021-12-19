@@ -1,90 +1,74 @@
-import Link from 'next/link';
+import {
+  FaInstagram,
+  FaTelegram,
+  FaFacebook,
+  FaWhatsapp
+} from 'react-icons/fa';
 
+import Container from 'components/Container';
 import Heading from 'components/Heading';
+import Input from 'components/Input';
 import Logo from 'components/Logo';
 
 import * as S from './styles';
 
-const currentYear = new Date().getFullYear();
-
 const Footer = () => (
   <S.Container>
-    <Logo />
-    <S.Content>
-      <S.Column>
-        <Heading color="black" size="small">
-          Contact Us
-        </Heading>
+    <Container>
+      <S.Content>
+        <S.Column>
+          <Logo />
 
-        <a href="mailto:sac@wongames.com">sac@wongames.com</a>
-      </S.Column>
+          <p>Encontre o lugar perfeito para morar</p>
 
-      <S.Column aria-labelledby="social-media">
-        <Heading color="black" size="small">
-          Follow us
-        </Heading>
+          <ul>
+            <li>
+              <FaWhatsapp />
+            </li>
+            <li>
+              <FaInstagram />
+            </li>
+            <li>
+              <FaFacebook />
+            </li>
+            <li>
+              <FaTelegram />
+            </li>
+          </ul>
+        </S.Column>
 
-        <nav id="social-media">
-          <a
-            href="https://www.instagram.com/won-games"
-            target="_blank"
-            rel="noopenner, noreferrer"
-          >
-            Instagram
-          </a>
-          <a
-            href="https://www.twitter.com/won-games"
-            target="_blank"
-            rel="noopenner, noreferrer"
-          >
-            Twitter
-          </a>
-          <a
-            href="https://www.youtube.com/won-games"
-            target="_blank"
-            rel="noopenner, noreferrer"
-          >
-            Youtube
-          </a>
-          <a
-            href="https://www.facebook.com/won-games"
-            target="_blank"
-            rel="noopenner, noreferrer"
-          >
-            Facebook
-          </a>
-        </nav>
-      </S.Column>
+        <S.Column>
+          <h3>Navegação</h3>
 
-      <S.Column aria-labelledby="resources">
-        <Heading color="black" size="small">
-          Links
-        </Heading>
+          <ul>
+            <li>Home</li>
+            <li>Quero alugar</li>
+            <li>Falar com um agente</li>
+            <li>Termos de uso</li>
+            <li>Política de privacidade</li>
+          </ul>
+        </S.Column>
 
-        <nav id="resources">
-          <Link href="/">
-            <a>Home</a>
-          </Link>
-          <Link href="/games">
-            <a>Store</a>
-          </Link>
-          <Link href="/search">
-            <a>Buscar</a>
-          </Link>
-        </nav>
-      </S.Column>
+        <S.Column>
+          <button>Newletter</button>
 
-      <S.Column aria-label="contact">
-        <Heading color="black" size="small">
-          Location
-        </Heading>
-        <span>Lorem ipsum dolor sit.</span>
-        <span>Lorem Ipsum</span>
-        <span>Lorem, ipsum dolor.</span>
-      </S.Column>
-    </S.Content>
+          <Heading>Receba novidades no seu e-mail</Heading>
 
-    <S.Copyright>Won Games {currentYear} © All rights reserved.</S.Copyright>
+          <Input placeholder="Digite seu e-mail" />
+        </S.Column>
+      </S.Content>
+    </Container>
+
+    <Container>
+      <S.CopyrightContainer>
+        <p>mobg © Todos os direitos reservados</p>
+
+        <div>
+          <a href="#">Anunciar imóvel</a>
+          <a href="#">Queremos o seu feedback</a>
+        </div>
+      </S.CopyrightContainer>
+    </Container>
   </S.Container>
 );
 
