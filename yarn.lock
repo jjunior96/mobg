@@ -7814,10 +7814,10 @@ react-element-to-jsx-string@^15.0.0:
     is-plain-object "5.0.0"
     react-is "18.1.0"
 
-react-hook-form@^7.44.3:
-  version "7.44.3"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.44.3.tgz#a99e560c6ef2b668db1daaebc4f98267331b6828"
-  integrity sha512-/tHId6p2ViAka1wECMw8FEPn/oz/w226zehHrJyQ1oIzCBNMIJCaj6ZkQcv+MjDxYh9MWR7RQic7Qqwe4a5nkw==
+react-hook-form@^7.46.1:
+  version "7.46.1"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.46.1.tgz#39347dbff19d980cb41087ac32a57abdc6045bb3"
+  integrity sha512-0GfI31LRTBd5tqbXMGXT1Rdsv3rnvy0FjEk8Gn9/4tp6+s77T7DPZuGEpBRXOauL+NhyGT5iaXzdIM2R6F/E+w==
 
 react-icons@^4.9.0:
   version "4.9.0"
